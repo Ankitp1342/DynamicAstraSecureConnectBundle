@@ -19,10 +19,10 @@ import java.util.UUID;
  * 
  * 
 	curl --request POST \
-  --url https://api.astra.datastax.com/v2/databases/ca91bcb3-1fe4-4fd4-abd1-33deca9a88ab/secureConnectBundle \
+  --url https://api.astra.datastax.com/v2/databases/DB_ID/secureConnectBundle \
   
   --header 'content-type: application/json' \
-  --header 'x-cassandra-token: AstraCS:awSImgpvKitycEFFzRfhWDvC:a3c0c936d2c3436a343eb9174049726079bec4828f13a7c6599983487993c926' \
+  --header 'x-cassandra-token: <AUTH_TOKEN>' \
   --data {}'
  */
 public class AstraGetAuthToken {
