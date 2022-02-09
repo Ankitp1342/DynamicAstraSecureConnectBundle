@@ -16,7 +16,7 @@ public class TestConnection {
         try {
             try (CqlSession session = CqlSession.builder()
                     .withCloudSecureConnectBundle(new URL(AstraGetAuthToken.secureBundleURL()))
-                    .withAuthCredentials("rinOZHyPynwWWEAxJdhwSEFj", "39evTdyYlN3rofQraacrFxJMj+MtB19KQpiSf,CH38N9SbLDdSK1NZbI32OZag31P-FsB.T_h6EKckMHj8wHAZuC7H1ZU3BT-gsrC72wtCd9mAwkOqvGodB5lTYz3vt3")
+                    .withAuthCredentials("<USER_ID>", "<PASSWORD>")
                     .build()) {
                 // Select the release_version from the system.local table:
                 ResultSet rs = session.execute("select release_version from system.local");

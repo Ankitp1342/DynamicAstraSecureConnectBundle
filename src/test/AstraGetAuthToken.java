@@ -28,8 +28,8 @@ import java.util.UUID;
 public class AstraGetAuthToken {
 
 
-    public static String ASTRA_CLUSTER_ID = "ca91bcb3-1fe4-4fd4-abd1-33deca9a88ab";
-    public static String AUTHORIZATION_TOKEN = "AstraCS:awSImgpvKitycEFFzRfhWDvC:a3c0c936d2c3436a343eb9174049726079bec4828f13a7c6599983487993c926";
+    public static String ASTRA_CLUSTER_ID = "<DATABASE_ID>";
+    public static String AUTHORIZATION_TOKEN = "<AUTH_TOKEN_VALUE>";
 
     public static ObjectMapper objectMapper;
 
